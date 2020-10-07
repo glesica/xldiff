@@ -8,7 +8,6 @@ author = "George Lesica"
 author-email = "george@lesica.com"
 description-file="README.md"
 home-page = "https://github.com/glesica/xldiff"
-description-file = "README.md"
 requires = [
     "openpyxl"
 ]
