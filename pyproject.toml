@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "xldiff"
+author = "George Lesica"
+author-email = "george@lesica.com"
+description-file="README.md"
+home-page = "https://github.com/glesica/xldiff"
+description-file = "README.md"
+requires = [
+    "openpyxl"
+]
+requires-python = ">=3.6"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.flit.scripts]
+xldiff = "xldiff"
+
